@@ -26,7 +26,7 @@ public class usoEmpleados {
 		System.out.println("Email: "+Maria.getEmail());
 		System.out.println(Maria.getNomEmpresa());
 		System.out.println("Email de Pedro: "+Pedro.getEmail());
-			contexto.close();*/
+			*/contexto.close();
 		
 		
 	

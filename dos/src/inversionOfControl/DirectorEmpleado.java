@@ -47,4 +47,21 @@ public class DirectorEmpleado implements Empleados {
 		return "Informe creado por el director: "+ informeNuevo.getInforme();
 	}
 
+	
+	public void metodoInicial(){
+		System.out.println("dentro del metodo init. Aqui irian las tareas a ejecutar antes de que el bean este listo");
+		}
+	
+	
+	public void metodoFinal(){
+		System.out.println("dentro del metodo destroy. Aqui irian las tareas a ejecutar antes de que el bean muera");
+		}
+	
+	
+	
+	
+	
+	
+	
+	
 }
